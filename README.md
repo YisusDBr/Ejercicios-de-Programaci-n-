@@ -8,7 +8,10 @@ using namespace std;
 int main() 
 {
     int num1, num2, num3;
-
+    char continuar = 's';
+    
+ while (continuar == 's') {
+ 	
     // Pedir al usuario que ingrese los 3 números
     cout << "Ingresa el primer numero: ";
     cin >> num1;
@@ -21,10 +24,15 @@ int main()
 
     // Comprobar si están en orden numérico
     if (num1 <= num2 && num2 <= num3) {
-        cout << "Los numeros están en orden numerico." << endl;
+        cout << "Los numeros estan en orden numerico." << endl;
     } else {
-        cout << "Los numeros no están en orden numerico." << endl;
+        cout << "Los numeros no estan en orden numerico." << endl;
     }
-
+  // Preguntar al usuario si desea continuar
+        cout << "Deseas continuar ingresando puntajes? (s/n): ";
+        cin >> continuar;
+    }
+    
+    cout << "Finalizado" << endl;
     return 0;
 }
