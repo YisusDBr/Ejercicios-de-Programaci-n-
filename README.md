@@ -1,5 +1,5 @@
 # Ejercicios-de-Programaci-n-
-\\Ejercicio 1
+//Ejercicio 1
 
 #include <iostream>
 
