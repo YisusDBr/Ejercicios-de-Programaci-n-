@@ -1,4 +1,4 @@
-# Ejercicios-de-Programaci-n-
+# Ejercicios-de-Programacion-
 //Ejercicio 1
 
 #include <iostream>
